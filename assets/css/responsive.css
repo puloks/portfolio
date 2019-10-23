@@ -1,0 +1,142 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ .portfolio-sec-wrap .overlay .preview {
+    margin-top: 45px;
+    margin-left: 30px;
+}
+#home-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#skill-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#testimonial-main {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hire-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+ .portfolio-sec-wrap .overlay .preview {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+body h1{
+	font-size:20px;
+}
+body h2{
+	font-size:16px;
+}
+body h3{
+	font-size:14px;
+}
+#home-sec .main-img {
+    max-height: 150px;
+}
+element {
+
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-name: bounceIn;
+
+}
+#home-sec .main-img-2 {
+    max-height: 150px;
+}
+#home-sec .overlay {
+    padding-top: 90px;
+    min-height: 690px;
+
+}
+#home-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#skill-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#testimonial-main {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hire-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {   
+.portfolio-sec-wrap .overlay .preview {
+    margin-top: 95px;
+    margin-left: 85px;
+}
+body h1{
+	font-size:25px;
+}
+body h2{
+	font-size:18px;
+}
+body h3{
+	font-size:16px;
+}
+#home-sec .main-img {
+    max-height: 180px;
+}
+
+#home-sec .main-img-2 {
+    max-height: 180px;
+}
+#home-sec .overlay {
+    padding-top: 90px;
+    min-height: 690px;
+
+}
+#home-sec {
+	background-size: cover;
+    background-attachment: fixed;
+}
+#skill-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#testimonial-main {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hire-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+.portfolio-sec-wrap .overlay .preview {
+    margin-top: 150px;
+    margin-left: 155px;
+}
+#home-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#skill-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#testimonial-main {
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hire-sec {
+    background-size: cover;
+    background-attachment: fixed;
+}
+}
